@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball 2 Details</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/custom.css"> 
+</head>
+<body>
+    <main>
+        <div class="product-details">
+            <img src="images/ball2.jpg" alt="Basketball 2" class="product-image">
+            <div class="product-info">
+                <h1>Баскетболна топка</h1>
+                <p class="short-description">Топка за баскетбол.</p>
+                <p class="full-description">"Готови ли сте за невероятни игри на открито? Нашата баскетболна топка за външен терен е идеалният
+                     избор за вас! Изработена с устойчиви на износване материали и здрава конструкция, тази топка е готова да издържи на всякакви
+                      условия на игра. Нейната текстурирана повърхност осигурява отличен захват и контрол, докато специалната вътрешна гума
+                       подобрява усещането при дриблиране и хвърляне. Независимо дали сте на игрището в парка или на уличния корт, тази топка
+                        ще ви помогне да изпълнявате вашите най-добри игри и да наслаждавате на моментите с приятели и семейство. Готови ли сте
+                         да доминирате играта на външен терен?"</p>
+                <p class="price">70 лв</p>
+                <h2>Купи сега:</h2>
+                <form id="purchaseForm" class="form">
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="address">Адрес:</label>
+                    <input type="text" id="address" name="address" required><br>
+                    <button type="submit" class="btn">Изпращане</button>
+                    <div id="successMessage" class="success-message"></div> 
+                </form>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <h2>Отзиви на клиенти</h2>
+            <div id="reviews" class="reviews">
+                <p>Ревю 1: Топ качество и дизайн!</p>
+                <p>Ревю 2: Топката е уникална за игра. </p>
+                <p>Ревю 3: Уникален продукт.</p>
+            </div>
+
+            <h2>Дайте мнението си:</h2>
+            <form id="reviewForm" class="form">
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" required></textarea><br>
+                <button type="submit" class="btn">Изпращане</button>
+            </form>
+        </div>
+
+        <a href="index.html" class="back-link">Обратно към началната страница</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Basketball Shop "Goated thingzz"</p>
+    </footer>
+
+    <script src="/scripts/scripts"></script>
+</body>
+</html>

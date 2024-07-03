@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Backpack 1</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/custom.css"> 
+</head>
+<body>
+    <main>
+        <div class="product-details">
+            <img src="images/backpack1.jpg" alt="Basketball 1" class="product-image">
+            <div class="product-info">
+                <h1>Мъжка раница</h1>
+                <p class="short-description">Мъжка раница</p>
+                <p class="full-description">" Нашата мъжка баскетболна раница е идеалният спътник за всеки баскетболист. Съчетание от стил и
+                     функционалност, раницата е проектирана да побира всичко необходимо за вашата тренировка или мач. Изработена от здрави и 
+                     устойчиви на износване материали, тя предлага достатъчно пространство за вашите обувки, дрехи и аксесоари, като същевременно
+                      поддържа удобството и комфорта в движение. С допълнителни джобове за аксесоари и вътрешен органайзер за лични вещи, нашата
+                       раница е перфектният избор за всеки сериозен баскетболист, който търси качество и стил в едно."</p>
+                <p class="price">90 лв</p>
+                <h2>Купи сега:</h2>
+                <form id="purchaseForm" class="form">
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="address">Адрес:</label>
+                    <input type="text" id="address" name="address" required><br>
+                    <button type="submit" class="btn">Изпращане</button>
+                    <div id="successMessage" class="success-message"></div> 
+                </form>
+            </div>
+        </div>
+
+        <div class="reviews-section">
+            <h2>Отзиви на клиенти</h2>
+            <div id="reviews" class="reviews">
+                <p>Ревю 1: Топ качество и дизайн!</p>
+                <p>Ревю 2: Просторна е. </p>
+                <p>Ревю 3: Уникален продукт.</p>
+            </div>
+
+            <h2>Дайте мнението си:</h2>
+            <form id="reviewForm" class="form">
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" required></textarea><br>
+                <button type="submit" class="btn">Изпращане</button>
+            </form>
+        </div>
+
+        <a href="index.html" class="back-link">Обратно към началната страница</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Basketball Shop "Goated thingzz"</p>
+    </footer>
+
+    <script src="/scripts/scripts"></script>
+</body>
+</html>
